@@ -1,6 +1,5 @@
 package autoTest;
 
-import autoTest.helpers.Attach;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -13,7 +12,6 @@ public class TestBase {
     public static class testBase {
         @BeforeAll
         static void  beforeAll() {
-            Configuration.baseUrl = "https://demoqa.com";
             Configuration.browserSize = "1920x1080";
             Configuration.timeout = 10000;
             Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
@@ -30,10 +28,11 @@ public class TestBase {
 
         @AfterEach
         void addAttachments() {
-            Attach.screenshotAs("Last screenshot");
-            Attach.pageSource();
-            Attach.browserConsoleLogs();
-            Attach.addVideo();
+           Attach.screenshotAs("Test screenshot");
+           Attach.pageSource();
+           Attach.browserConsoleLogs();
+           Attach.addVideo();
         }
+
     }
 }

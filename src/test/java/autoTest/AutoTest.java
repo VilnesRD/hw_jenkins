@@ -29,14 +29,14 @@ public class AutoTest extends TestBase {
     @Test
     @Owner("Dmitry Rodichev")
     @Severity(value = io.qameta.allure.SeverityLevel.CRITICAL)
-    @Story("Test for registration")
-    @DisplayName("Test for registration")
-    @Description("Test for registration")
+    @Story("Проверка работы страницы регистрации")
+    @DisplayName("Проверка работы страницы регистрации")
+    @Description("Проверка работы страницы регистрации")
     void formTest() {
-        step("Open page", () -> {
+        step("Открытие страницы", () -> {
             new PageObjects().openPage();
         });
-        step("Fill form", () -> {
+        step("Заполнение формы", () -> {
             new PageObjects()
                     .setFirstName(firstName)
                     .setLastName(lastName)
@@ -50,7 +50,7 @@ public class AutoTest extends TestBase {
                     .setAddress(userAddress)
                     .chooseState("Haryana", "Karnal");
         });
-        step("Check fill form", () -> {
+        step("Проверка результатов заполнения формы", () -> {
             new PageObjects().verifyResultsModal()
                     .checkResults("Student Name", firstName + " " + lastName)
                     .checkResults("Student Email", emailAddress)
