@@ -7,7 +7,6 @@
     <list default="true" id="3c65c474-8ec4-476a-b83a-74a4c9abaf14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672907649258</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added simple si">
+      <created>1672910885873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672910885873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +303,7 @@
     <MESSAGE value="Fix problem with open web-driver, fix build.gradle" />
     <MESSAGE value="Update AutoTest" />
     <MESSAGE value="Update 'org.slf4j:log4j-over-slf4j:1.7.36'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 'org.slf4j:log4j-over-slf4j:1.7.36'" />
+    <MESSAGE value="Added simple si" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple si" />
   </component>
 </project>
