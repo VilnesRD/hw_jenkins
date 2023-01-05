@@ -5,6 +5,7 @@ import autoTest.pageComponents.ResultsModal;
 import autoTest.pageComponents.StateComponent;
 import com.codeborne.selenide.SelenideElement;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -23,6 +24,7 @@ public class PageObjects {
 
     public PageObjects openPage() {
         open("https://demoqa.com/automation-practice-form");
+       // $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
 

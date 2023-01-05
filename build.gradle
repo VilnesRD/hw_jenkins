@@ -1,10 +1,11 @@
 plugins {
-    id 'java'
+    id 'java-library'
     id 'io.qameta.allure' version '2.11.2'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+repositories {
+    mavenCentral()
+}
 
 allure {
     report {
@@ -20,25 +21,40 @@ allure {
     }
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    testImplementation(
-            'org.junit.jupiter:junit-jupiter-api:5.9.0',
-            'com.codeborne:selenide:6.7.2',
+    testImplementation (
+            'com.github.javafaker:javafaker:1.0.2',
+            'com.codeborne:selenide:6.9.0',
             'io.qameta.allure:allure-selenide:2.19.0',
-            'com.github.javafaker:javafaker:1.0.2'
-
+            'org.junit.jupiter:junit-jupiter:5.9.1',
+            'org.slf4j:slf4j-simple:1.7.32'
     )
-
-    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.9.0')
 }
 
-test {
+tasks.withType(Test) {
     useJUnitPlatform()
-    systemProperties(System.getProperties())
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
+
+help {
+    doFirst {
+        println ""
+        println "************************************************************************ "
+        println "***                                                                  *** "
+        println "*** Welcome to https://github.com/qa-guru/demoqa-test-16!            *** "
+        println "***                                                                  *** "
+        println "*** ./gradlew help                                                   *** "
+        println "***                                                                  *** "
+        println "************************************************************************ "
+        println ""
+    }
 }
 
 compileJava {

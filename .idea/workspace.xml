@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c65c474-8ec4-476a-b83a-74a4c9abaf14" name="Changes" comment="Update TestBase">
+    <list default="true" id="3c65c474-8ec4-476a-b83a-74a4c9abaf14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/AutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/PageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/PageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +84,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yavil/IdeaProjects/hw_jenkins&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/yavil/IdeaProjects/hw_jenkins",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.hw_jenkins [allureServe]">
+}]]></component>
+  <component name="RunManager" selected="Gradle.AutoTest">
     <configuration name="AutoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,8 +207,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.hw_jenkins [allureServe]" />
         <item itemvalue="Gradle.AutoTest" />
+        <item itemvalue="Gradle.hw_jenkins [allureServe]" />
         <item itemvalue="Gradle.AutoTest.formTest" />
         <item itemvalue="Gradle.hw_jenkins [build]" />
         <item itemvalue="Gradle.hw_jenkins [assemble]" />
@@ -232,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672755110808</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update TestBase">
+      <created>1672756337540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672756337540</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
