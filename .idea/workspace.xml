@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c65c474-8ec4-476a-b83a-74a4c9abaf14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.AutoTest.formTest">
+  <component name="RunManager" selected="Gradle.AutoTest">
     <configuration name="AutoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -202,9 +203,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AutoTest.formTest" />
         <item itemvalue="Gradle.AutoTest" />
         <item itemvalue="Gradle.hw_jenkins [allureServe]" />
+        <item itemvalue="Gradle.AutoTest.formTest" />
         <item itemvalue="Gradle.hw_jenkins [build]" />
         <item itemvalue="Gradle.hw_jenkins [assemble]" />
       </list>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672905655114</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update AutoTest">
+      <created>1672906165043</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672906165043</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

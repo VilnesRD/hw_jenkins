@@ -27,7 +27,7 @@ dependencies {
             'com.codeborne:selenide:6.9.0',
             'io.qameta.allure:allure-selenide:2.19.0',
             'org.junit.jupiter:junit-jupiter:5.9.1',
-            'org.slf4j:slf4j-simple:1.7.32'
+            'org.slf4j:log4j-over-slf4j:1.7.36'
     )
 }
 
