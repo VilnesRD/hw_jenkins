@@ -1,5 +1,7 @@
 \.gradle
 \.idea
 \build
+!*\build\allure-results
+!*\build\allure
 *.log
 *.class
