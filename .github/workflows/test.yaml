@@ -11,7 +11,8 @@ jobs:
           distribution: 'zulu'
           java-version: '11'
       - uses: Xotabu4/selenoid-github-action@v2
-      - run: ./gradle clean test -Dselenide.remote=http://localhost:4444/wd/hub
+      - run:
+          working-directory: ./gradle clean test -Dselenide.remote=http://localhost:4444/wd/hub
 
       - uses: actions/checkout@v2
         if: always()

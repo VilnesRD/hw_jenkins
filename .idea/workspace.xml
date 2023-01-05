@@ -88,7 +88,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.hw_jenkins [compileTestJava]">
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672910885873</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added simple si">
+      <created>1672911597590</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672911597590</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,5 +312,9 @@
     <MESSAGE value="Update 'org.slf4j:log4j-over-slf4j:1.7.36'" />
     <MESSAGE value="Added simple si" />
     <option name="LAST_COMMIT_MESSAGE" value="Added simple si" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
