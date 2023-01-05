@@ -24,7 +24,6 @@ public class PageObjects {
 
     public PageObjects openPage() {
         open("https://demoqa.com/automation-practice-form");
-       // $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
 

@@ -22,6 +22,7 @@ public class AutoTest extends TestBase {
             birthMonth = birthday[1],
             birthYear = birthday[2],
             userAddress = faker.address().fullAddress();
+    PageObjects pageObjects = new PageObjects();
 
     @Test
     @Owner("Dmitry Rodichev")
@@ -31,10 +32,10 @@ public class AutoTest extends TestBase {
     @Description("Проверка работы страницы регистрации")
     void formTest() {
         step("Открытие страницы", () -> {
-            new PageObjects().openPage();
+            pageObjects.openPage();
         });
         step("Заполнение формы", () -> {
-            new PageObjects()
+            pageObjects
                     .setFirstName(firstName)
                     .setLastName(lastName)
                     .setEmail(emailAddress)
@@ -48,7 +49,8 @@ public class AutoTest extends TestBase {
                     .chooseState("Haryana", "Karnal");
         });
         step("Проверка результатов заполнения формы", () -> {
-            new PageObjects().verifyResultsModal()
+            pageObjects
+                    .verifyResultsModal()
                     .checkResults("Student Name", firstName + " " + lastName)
                     .checkResults("Student Email", emailAddress)
                     .checkResults("Gender", "Male")

@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c65c474-8ec4-476a-b83a-74a4c9abaf14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/helpers/Attach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/AutoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/PageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/PageObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autoTest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoTest/TestBase.java" afterDir="false" />
@@ -245,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672756337540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix problem with open web-driver, fix build.gradle">
+      <created>1672902074559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672902074559</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +267,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Update TestBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update TestBase" />
+    <MESSAGE value="Fix problem with open web-driver, fix build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix problem with open web-driver, fix build.gradle" />
   </component>
 </project>
